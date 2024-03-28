@@ -1,3 +1,4 @@
+<!-- javascript code -->
 <script>
 	export function closeItems(id, id2, id3) {
 		let element = document.getElementById(id);
@@ -21,6 +22,7 @@
 </script>
 
 <div class="main-container">
+	<!-- navbar for desktop view -->
 	<nav class="navbar">
 		<a href="https://templesofindia.org/" class="logo">
 			<img
@@ -46,6 +48,8 @@
 			<a href="">Login</a>
 		</ul>
 	</nav>
+	<!-- navbar for mobile view -->
+
 	<div class="mobile-nav">
 		<button
 			class="cross-btn"
@@ -61,6 +65,7 @@
 			/>TEMPLES OF INDIA</b
 		> <i class="fa-solid fa-magnifying-glass"></i>
 	</div>
+	<!-- sidebar for mobile view -->
 
 	<div
 		class="offcanvas offcanvas-start sidebar"
@@ -113,6 +118,7 @@
 		</div>
 	</div>
 
+	<!-- image container -->
 	<div>
 		<img
 			src="https://templesofindia.org/assets/compressed/tofi-banner.jpg"
@@ -138,6 +144,8 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- details container for desktop and mobile view -->
 
 	<div class="bottom-container">
 		<div class="left-container">
@@ -579,6 +587,9 @@
 			<span> Comments </span>
 		</button>
 	</div>
+
+	<!-- footer -->
+
 	<footer>
 		<div class="sub-footer">
 			<div>
@@ -620,6 +631,7 @@
 	</footer>
 </div>
 
+<!-- styles -->
 <style>
 	* {
 		box-sizing: border-box;
